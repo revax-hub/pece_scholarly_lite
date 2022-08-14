@@ -1,0 +1,46 @@
+name: PECE Scholarly Lite
+type: theme
+package: PECE
+description: 'User Interface improvements and customizations for PECE.'
+core_version_requirement: ^8.7.7 || ^9.0
+screenshot: screenshot.png
+base theme: scholarly_lite
+engine: twig
+#hidden: true
+
+#Optional. These stylesheets will not be loaded in this theme
+#stylesheets-override:
+#  - core/modules/system/css/components/messages.theme.css
+#  - core/modules/system/css/components/menu.theme.css
+
+libraries:
+  - pece_scholarly_lite/global
+
+regions:
+  banner: 'Banner'
+  promoted: 'Promoted area'
+  sidebar_first: 'First sidebar'
+  sidebar_second: 'Second sidebar'
+  bottom_content: 'Bottom Content'
+  footer_top_left: 'Footer Top Left'
+  footer_top_right: 'Footer Top Right'
+  footer_first: 'Footer First'
+  footer_second: 'Footer Second'
+  footer_third: 'Footer Third'
+  footer_fourth: 'Footer Fourth'
+  sub_footer_left: 'Subfooter Left'
+
+  # Available Regions
+  header_top_left: 'Header Top Left'
+  header_top_right: 'Header Top Right'
+
+  header: 'Header'
+  navigation: 'Navigation'
+
+  highlighted: 'Highlighted'
+  content: 'Content'
+  footer: 'Footer'
+
+  help: 'Help'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'

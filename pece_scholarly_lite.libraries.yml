@@ -1,0 +1,74 @@
+global:
+  css:
+    theme:
+      assets/css/main.css: {}
+      assets/css/print.css: { media: print }
+  js:
+    assets/js/script.js: {}
+    assets/js/dashboard-menu.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+
+color-picker:
+  js:
+    assets/js/color-picker.js: {}
+
+header_override:
+  css:
+    theme:
+      /assets/css/header_override.css: {}
+
+scheme_override:
+  css:
+    theme:
+      /sites/default/files/pece_scholarly_lite/scheme_override.css': { weight: +50 }
+
+scheme_overrides.base:
+  css:
+    theme:
+      /assets/overrides/scheme_overrides.base.css: {}
+scheme_overrides.default:
+  css:
+    theme:
+      /assets/overrides/scheme_overrides.default.css: {}
+scheme_overrides.blue:
+  css:
+    theme:
+      /assets/overrides/scheme_overrides.blue.css: {}
+scheme_overrides.red:
+  css:
+    theme:
+      /assets/overrides/scheme_overrides.red.css: {}
+scheme_overrides.green:
+  css:
+    theme:
+      /assets/overrides/scheme_overrides.green.css: {}
+scheme_overrides.purple:
+  css:
+    theme:
+      /assets/overrides/scheme_overrides.purple.css: {}
+scheme_overrides.orange:
+  css:
+    theme:
+      /assets/overrides/scheme_overrides.orange.css: {}
+scheme_overrides.pink:
+  css:
+    theme:
+      /assets/overrides/scheme_overrides.pink.css: {}
+scheme_overrides.gray-green:
+  css:
+    theme:
+      /assets/overrides/scheme_overrides.gray-green.css: {}
+scheme_overrides.gray-orange:
+  css:
+    theme:
+      /assets/overrides/scheme_overrides.grey-orange.css: {}
+scheme_overrides.gray-pink:
+  css:
+    theme:
+      /assets/overrides/scheme_overrides.gray-pink.css: {}
+scheme_overrides.gray-red:
+  css:
+    theme:
+      /assets/overrides/scheme_overrides.gray-red.css: {}

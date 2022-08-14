@@ -1,0 +1,24 @@
+{
+  "name": "pece_scholarly_lite",
+  "version": "1.0.0",
+  "description": "Theme for Academic websites tailored made to PECE Distribution.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/revax-hub/pece_scholarly_lite.git"
+  },
+  "keywords": [
+    "PECE",
+    "Drupal",
+    "Theme"
+  ],
+  "author": "Reva Gomes",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/revax-hub/pece_scholarly_lite/issues"
+  },
+  "homepage": "https://github.com/revax-hub/pece_scholarly_lite#readme"
+}

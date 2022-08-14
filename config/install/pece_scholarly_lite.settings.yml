@@ -1,0 +1,23 @@
+breadcrumb_display: 1
+scrolltop_display: 1
+frontpage_content_print: 1
+three_columns_grid_layout: 'grid_3_6_3'
+color_scheme: 'gray-purple'
+fixed_header: 1
+form_style: 'form-style-1'
+headings_font_family: 'hff-7'
+paragraph_font_family: 'pff-7'
+sitename_font_family: 'sff-7'
+slogan_font_family: 'slff-7'
+responsive_multilevelmenu_state: 1
+bootstrap_css_cdn: 3.2.0
+bootstrap_js_cdn: 3.2.0
+credits_display: 1
+logo:
+  use_default: true
+favicon:
+  use_default: true
+plugins:
+  panels:
+    layouts: 'layouts'
+    styles: 'plugins/styles'
